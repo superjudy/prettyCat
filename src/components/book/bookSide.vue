@@ -3,19 +3,9 @@
       <div class="">
         <h3>标签列表</h3>
         <ul class="tag-list">
-          <li>标签</li>
-          <li>标签</li>
-          <li>标签</li>
-          <li>标签</li>
-          <li>标签</li>
-          <li>标签</li>
+          <li>{{bookList}}</li>
         </ul>
         <ul class="tag-list-v">
-          <li>标签</li>
-          <li>标签</li>
-          <li>标签</li>
-          <li>标签</li>
-          <li>标签</li>
           <li>标签</li>
         </ul>
       </div>
@@ -29,6 +19,14 @@ export default {
     return {
       
     }
+  },
+  computed:{
+    bookList(){
+        return this.$store.state.test.name;
+      }
+  },
+  created:function(){
+
   }
 }
 </script>

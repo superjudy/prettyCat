@@ -103,3 +103,19 @@ ul.tag-list-v>li:last-child{
 ul.tag-list-v>li:hover{
     background: #f5f6f4;
 }
+
+/* content part list */
+ul.con-list-temp{
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap:wrap;
+    justify-content:center; 
+}
+ul.con-list-temp li{
+    max-width: 152px;
+    border:1px solid #ccc;
+}
+ul.con-list-temp li p.con-list-bkname{
+    color: #37a;
+}

@@ -7,7 +7,15 @@
           <div></div>
         </div>
         <div>
-          <ul>
+          <ul class="con-list-temp">
+            <li>
+              <img/>
+              <p class="con-list-bkname">我是书名</p>
+              <p class="con-list-author">我是作者</p>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
             <li></li>
           </ul>
         </div>
@@ -28,5 +36,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-
 </style>
