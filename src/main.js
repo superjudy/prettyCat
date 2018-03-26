@@ -8,7 +8,6 @@ import VueAxios from 'vue-axios'
 import Vuex from 'vuex'
 import store from './vuex/store'
 import './assets/style/reset.css';
-import './assets/style/db.css';
 
 Vue.config.productionTip = false
 

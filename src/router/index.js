@@ -18,8 +18,7 @@ export default new Router({
       name: 'index',
       components: {
         default: dbHeader,
-        main: index,
-        aside: bookSide
+        main: index
       }
     },
   ],

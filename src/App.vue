@@ -3,9 +3,7 @@
     <router-view/>
     <div class="main-area">
       <router-view name="main"/>
-      <router-view name="aside"/>    
     </div>
-
   </div>
 </template>
 
@@ -22,5 +20,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  .main-area{
+    width:100%;
+    margin:15px auto 0;
+    overflow: hidden;
+  }
 }
 </style>

@@ -11,15 +11,6 @@ const store = new Vuex.Store({
     test: {
       name: 'biaoqian'
     }
-  },
-  actions: {
-    getBookTag () {
-      axios.get('./api/book/:id').then(function(res){
-        console.log("11")
-      }).catch(function(error){
-        console.log("22")
-      })
-    }
   }
 })
 
